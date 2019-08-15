@@ -38,7 +38,7 @@ public class OAuthSecurityClientConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/index.html",
                         "/home.html",
                         "/",
-                        "/resource/rest/**",
+                        "/project/rest/**",
                         "/oauth/**",
                         "/auth/**",
                         "/oauth").permitAll().anyRequest()

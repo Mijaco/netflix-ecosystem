@@ -5,13 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lungesoft.architecture</groupId>
-    <artifactId>rest-api</artifactId>
+    <artifactId>parent-pom-apis</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-    <name>stateless-rest-api</name>
+    <name>parent-pom-apis</name>
 
     <modules>
-        <module>core</module>
+
+        <module>resource-1</module>
+        <module>resource-2</module>
+        <module>resource-3</module>
+        <module>resource-4</module>
+
     </modules>
 
     <properties>

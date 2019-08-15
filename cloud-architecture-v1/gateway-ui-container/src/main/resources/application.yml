@@ -12,10 +12,15 @@ endpoints:
     sensitive: false
 zuul:
   routes:
-    resource:
+
+    project:
       sensitiveHeaders:
-      path: /resource/**
-      serviceId: rest-service
+      path: /project/**
+      serviceId: rest-project
+    book:
+      sensitiveHeaders:
+      path: /book/**
+      serviceId: rest-book
     auth:
       sensitiveHeaders:
       #should be same as auth server context path
@@ -31,7 +36,8 @@ sso:
     clientId: clientIdMock
     clientSecret: clientSecretMock
   resource:
-    userInfoUri: http://localhost:7070/resource/rest/me
+    #Is used as pivot for getting access token
+    userInfoUri: http://localhost:7070/project/rest/me
 logging:
   level:
     org.springframework.security: DEBUG
