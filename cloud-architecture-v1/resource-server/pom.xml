@@ -24,7 +24,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>1.5.10.RELEASE</spring-boot.version>
         <springfox.version>2.7.0</springfox.version>
-        <spring-security-oauth2.version>2.2.0.RELEASE</spring-security-oauth2.version>
+        <spring-security-oauth2.version>2.2.4.RELEASE</spring-security-oauth2.version>
         <modelmapper.version>0.7.4</modelmapper.version>
     </properties>
 
